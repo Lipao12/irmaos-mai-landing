@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { About } from "./about";
+import { Contact } from "./contact";
+import { FAQ } from "./faq";
 import { Home } from "./home";
 import { Services } from "./services";
 
@@ -23,6 +25,8 @@ export const Landing = () => {
           <Services />
         </motion.div>
       </div>
+      <FAQ />
+      <Contact />
     </div>
   );
 };
