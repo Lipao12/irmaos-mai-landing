@@ -18,7 +18,7 @@ export const About: React.FC = () => {
         <div className="grid gap-12 md:grid-cols-2 lg:gap-24">
           <div className="">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-              Nossos Serviços
+              O Que Fazemos
             </h3>
             <p className="text-lg text-gray-700">
               Atuamos em diversos segmentos da indústria, oferecendo serviços de
