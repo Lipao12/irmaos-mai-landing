@@ -1,36 +1,37 @@
 import { motion } from "framer-motion";
-import { FaChartLine, FaCogs, FaTools, FaWrench } from "react-icons/fa";
+import { FaTools } from "react-icons/fa";
 import { CardService } from "../components/card-service";
 
+import { FaBolt, FaCog, FaTachometerAlt } from "react-icons/fa";
 export const Services = () => {
   const services = [
     {
       id: 1,
-      name: "Manutenção Preventiva",
+      name: "Serviços Elétricos",
       description:
-        "Aumente a durabilidade de seus equipamentos com serviços regulares e monitoramento preventivo.",
-      icon: <FaTools />,
+        "Manutenção e reparo de sistemas elétricos para máquinas industriais, garantindo segurança e eficiência.",
+      icon: <FaBolt />,
     },
     {
       id: 2,
-      name: "Reparo de Máquinas",
+      name: "Serviços Mecânicos",
       description:
-        "Reparo especializado de máquinas industriais para minimizar tempo de inatividade.",
-      icon: <FaWrench />,
+        "Reparo e manutenção de componentes mecânicos de máquinas industriais para garantir funcionamento otimizado.",
+      icon: <FaCog />,
     },
     {
       id: 3,
-      name: "Instalação de Equipamentos",
+      name: "Manutenção Preventiva",
       description:
-        "Instalação segura e eficiente de equipamentos industriais novos.",
-      icon: <FaCogs />,
+        "Serviços regulares para monitorar e prevenir falhas em máquinas industriais, aumentando a durabilidade e reduzindo o tempo de inatividade.",
+      icon: <FaTools />,
     },
     {
       id: 4,
-      name: "Consultoria Técnica",
+      name: "Serviços de Tornearia",
       description:
-        "Consultoria especializada para otimizar processos industriais e melhorar a produtividade.",
-      icon: <FaChartLine />,
+        "Usinagem e torneamento de peças industriais com precisão, adaptando-se às necessidades específicas de cada projeto.",
+      icon: <FaTachometerAlt />,
     },
   ];
 
