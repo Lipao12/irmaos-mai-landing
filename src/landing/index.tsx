@@ -8,7 +8,7 @@ import { Home } from "./home";
 import { Services } from "./services";
 
 export const Landing = () => {
-  const [selectedPage, setSelectedPage] = useState("home");
+  const selectedPage = useState("home");
   return (
     <div>
       <Header />
@@ -17,7 +17,7 @@ export const Landing = () => {
         <div className="md:h-full ">
           <motion.div
             onViewportEnter={() => {
-              selectedPage;
+              selectedPage[0];
             }}
           >
             <About />
