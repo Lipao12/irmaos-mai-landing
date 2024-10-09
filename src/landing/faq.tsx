@@ -26,7 +26,7 @@ export const FAQ = () => {
 
   return (
     <section id="faq" className="bg-gray-200 py-16">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold text-start mb-8">
           Perguntas Frequentes
         </h2>

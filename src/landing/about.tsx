@@ -8,10 +8,12 @@ export const About: React.FC = () => {
           <h2 className="text-3xl font-extrabold text-gray-900 mb-6">
             Sobre Nós
           </h2>
-          <p className="text-lg text-gray-600">
-            Com mais de 10 anos de experiência no setor de manutenção
-            industrial, oferecemos soluções completas para garantir o
-            funcionamento eficiente e seguro dos seus equipamentos.
+          <p className="text-xl text-gray-600">
+            A Irmãos Mai tem mais de 10 anos de experiência no setor de
+            manutenção industrial, atendendo empresas de todos os portes no polo
+            moveleiro de Linhares e região. Nosso foco é garantir a operação
+            eficiente de seus equipamentos, através de soluções técnicas
+            avançadas e atendimento de excelência.
           </p>
         </div>
 

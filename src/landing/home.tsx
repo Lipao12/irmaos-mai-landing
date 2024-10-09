@@ -9,10 +9,10 @@ export const Home = () => {
     >
       <div className="bg-black bg-opacity-60 p-8 rounded-lg">
         <h1 className="text-5xl font-extrabold text-white mb-4">Irmãos Mai</h1>
-        <p className="text-xl text-gray-200">
+        <h2 className="text-xl text-gray-200">
           Maximizamos a eficiência das suas máquinas para que você foque no
           crescimento do seu negócio.
-        </p>
+        </h2>
       </div>
     </section>
   );
